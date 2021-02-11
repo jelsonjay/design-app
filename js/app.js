@@ -11,3 +11,7 @@ window.addEventListener('scroll', function() {
   menuToggle.classList.toggle('active')
   menu.classList.toggle('active')
   }
+
+  function date(){
+   new Date().getFullYear()
+  }
