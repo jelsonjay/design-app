@@ -202,15 +202,19 @@ footer p {
 	.hero .content p {
 		font-size: 1.25rem;
 	}
-}
-
-@media screen and (max-width: 768px) {
+	main h1 {
+		font-size: 2remrem;
+	}
+	main p {
+		font-size: 1.25rem;
+	}
 }
 
 @media screen and (max-width: 445px) {
 	.hero .content h1 {
 		font-size: 1.25rem;
 	}
+
 	.hero .content p {
 		font-size: 1rem;
 	}
