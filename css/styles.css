@@ -11,6 +11,7 @@
 	--mainWhite: #f2f2f2;
 }
 body {
+	min-height: 1000px;
 	line-height: 1.6;
 	background: var(--mainBG);
 	color: var(--fontColor);
@@ -39,11 +40,21 @@ nav .logo {
 	font-weight: bold;
 	text-decoration: none;
 }
-nav ul {
+nav .logo span {
+	color: coral;
+}
+nav .menu {
+	position: relative;
 	display: flex;
 }
-nav li {
+nav .menu li {
+	list-style: none;
+	margin-left: 30px;
+}
+nav .menu li a {
 	text-decoration: none;
+	color: var(--mainWhite);
+	font-weight: bold;
 }
 /*=========HERO============*/
 .hero {
