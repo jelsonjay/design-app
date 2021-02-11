@@ -148,6 +148,21 @@ footer {
 	nav .menu {
 		display: none;
 	}
+	.menuToggle {
+		position: relative;
+		width: 40px;
+		height: 40px;
+		background: url(open.png);
+		background-size: 30px;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+	.menuToggle.active {
+		position: relative;
+		background: url(close.png);
+		background-size: 25px;
+		background-repeat: no-repeat;
+	}
 }
 
 @media screen and (max-width: 768px) {

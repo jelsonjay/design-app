@@ -9,6 +9,7 @@
 <body>
 <nav>
 <a href="" class="logo">Logo<span>.</span></a>
+<div class="menuToggle" onclick="toggleMenu()"></div>
 <ul class="menu">
 <li><a href='#'>Home</a></li>
 <li><a href='#'>About</a></li>
@@ -75,6 +76,11 @@ window.addEventListener('scroll', function() {
 const nav = document.querySelector('nav')
 nav.classList.toggle('sticky', window.scrollY > 0)
 })
+
+function toggleMenu(){
+const menuToggle = document.querySelector('.menuToggle')
+menuToggle.classList.toggle('active')
+}
 
 </script>
 </body>
